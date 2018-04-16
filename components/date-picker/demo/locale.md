@@ -16,7 +16,7 @@ Use locale to set the properties like time zone, language and etc. `en_US`, `zh_
 
 ````jsx
 import { DatePicker } from 'antd';
-import enUS from 'antd/lib/date-picker/locale/en_US';
+import zh-CN from 'antd/lib/date-picker/locale/zh-CN';
 
 const customLocale = {
   timezoneOffset: 8 * 60,
@@ -24,5 +24,5 @@ const customLocale = {
   minimalDaysInFirstWeek: 1,
 };
 
-ReactDOM.render(<DatePicker locale={{ ...enUS, ...customLocale }} />, mountNode);
+ReactDOM.render(<DatePicker locale={{ ...zh-CN, ...customLocale }} />, mountNode);
 ````
